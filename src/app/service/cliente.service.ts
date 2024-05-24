@@ -1,13 +1,28 @@
 import { Injectable } from '@angular/core';
-
+import { Cliente } from '../page/componet/model/cliente';
 @Injectable({
   providedIn: 'root'
 })
 export class ClienteService {
   constructor() { }
-  getClientes():any {
+  getClientes(): Cliente[] {
     return [
-      {id:1}
+      {
+        apellido:"Apellido",
+        cuit: "cuit",
+        id: 123,
+        islive: true,
+        nombre:"nombre",
+        edad: 34
+      },
+      {
+        apellido:"Apellido",
+        cuit: "cuit",
+        id: 123,
+        islive: true,
+        nombre:"nombre",
+        edad: 34
+      },
     ]
   }
 
