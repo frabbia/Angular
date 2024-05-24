@@ -19,7 +19,7 @@ export class ClienteService {
         apellido:"Apellido",
         cuit: "cuit",
         id: 123,
-        islive: true,
+        islive: false,
         nombre:"nombre",
         edad: 34
       },
