@@ -8,11 +8,11 @@ export class ClienteService {
   getClientes(): Cliente[] {
     return [
       {
-        apellido:"Apellido",
+        apellido:"Rabbia",
         cuit: "cuit",
         id: 123,
         islive: true,
-        nombre:"nombre",
+        nombre:"Facundo",
         edad: 34
       },
       {
